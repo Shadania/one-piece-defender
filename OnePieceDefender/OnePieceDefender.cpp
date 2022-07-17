@@ -944,8 +944,6 @@ void MoveSprite(Sprite &sprite, int destCell, bool isItLuffy, float elapsedSec) 
 
 void HandleEnemyTurns()
 {
-	// need to figure out if, and if so how, this can be stuffed in a for-loop
-	
 	if (g_Robots[0].turnActive)
 	{
 		if (!IsLuffyInRange(0)) //if luffy isnt in range, move
